@@ -54,6 +54,6 @@ The best way to conduct the conversation is via a single laptop, but with 2 term
 3. Participant B runs `git add .`, `git commit -m <MESSAGE>` but does NOT run `git push`
 
 ### Creating conflict
-1. Participant A adds "Hey, do you have any pets?" **AS THE LAST LINE** in `conversation.txt`
+1. Participant A adds "How do you fancy having coffee tomorrow?" **AS THE LAST LINE** in `conversation.txt`
 2. Participant A runs `git add .`, `git commit -m <MESSAGE>` and `git push`
 3. Participant A runs `git pull`. There's a conflict. Highlight to students that are unfamiliar with git that it may be best to ask for some help from an SME if this occurs
