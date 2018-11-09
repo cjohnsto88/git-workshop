@@ -1,5 +1,5 @@
 # GitHub Workshop Conversation
-The GitHub workshop conversation is intended to give participants a no distractions insight into using git to colaborate and share contributions to a project. Two people are required to demonstrate git add, commit, push and pull by have a simple conversation through a text file.
+The GitHub workshop conversation is intended to give students a no distractions insight into using `git` to collaborate and share contributions to a project. Two people are required to demonstrate `git add`, `git commit`, `git push` and `git pull` by have a simple conversation through a text file.
 
 ## Conducting the Conversation
 The best way to conduct the conversation is via a single laptop, but with 2 terminals side by side. The terminal on the left being participant A's "computer" and the right terminal being participant B's "computer". You will also need a browser with a tab open at the git repo to be used for the demo.
