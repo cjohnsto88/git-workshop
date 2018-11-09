@@ -33,13 +33,13 @@ The best way to conduct the conversation is via a single laptop, but with 2 term
 2. Participant B adds "How was dinner?" to `conversation.txt`
 3. Participant B runs `git add .`, `git commit -m <MESSAGE` and  `git push`
 
-### Respond about dinner, but DO NOT push!!!
+### Respond about dinner, **but DO NOT push!!!**
 1. Participant A runs `git pull` to get latest contributions
 2. Participant A adds "Fantastic" to `conversation.txt`
-3. Participant A runs ONLY `git add.` and `git commit -m <MESSAGE>`. DO NOT RUN `git push`!!!
+3. Participant A runs ONLY `git add .` and `git commit -m <MESSAGE>`. DO NOT RUN `git push`!!!
 
 ### Interruption, GitHub has stuff you don't
-1. Participant B is a rather pedantic sole and is frustrated that this conversation doesn't have a title. How horrendously awful... Add "CONVERSATION" as a new line AT THE TOP of the file
+1. Participant B is a rather pedantic soul and is frustrated that this conversation doesn't have a title. How horrendously awful... Add "CONVERSATION" as a new line **AT THE TOP** of the file
 2. Participant B runs `git add .`, `git commit -m <MESSAGE>` and `git push`
 
 ### GitHub has stuff we don't, let's pull
@@ -48,12 +48,12 @@ The best way to conduct the conversation is via a single laptop, but with 2 term
 3. Participant A shows that their `conversation.txt` now has the title added by Participant B
 4. Participant A runs `git push` and shows in GitHub that all the changes are now safley there
 
-### Set up for conflict. Brace yourself!!! Do NOT push
+### Set up for conflict. Brace yourself!!! **Do NOT push!!!**
 1. Participant B runs `git pull`
-2. Participant B adds "Hey do you have any pets?" to  AS THE LAST LINE in `conversation.txt`
+2. Participant B adds "Hey do you have any pets?" to  **AS THE LAST LINE** in `conversation.txt`
 3. Participant B runs `git add .`, `git commit -m <MESSAGE>` but does NOT run `git push`
 
 ### Creating conflict
-1. Participant A adds "Hey, do you have any pets?" AS THE LAST LINE in `conversation.txt`
+1. Participant A adds "Hey, do you have any pets?" **AS THE LAST LINE** in `conversation.txt`
 2. Participant A runs `git add .`, `git commit -m <MESSAGE>` and `git push`
 3. Participant A runs `git pull`. There's a conflict. Highlight to students that are unfamiliar with git that it may be best to ask for some help from an SME if this occurs
